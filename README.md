@@ -61,6 +61,17 @@ npm start
 npm run dev
 ```
 
+### 🐳 Docker Support (Node 22-slim)
+You can build and run this backend inside a lightweight Docker container using the preconfigured `Dockerfile`:
+
+```bash
+# Build the Docker image
+docker build -t sdm-backend-js .
+
+# Run the container (mapping port 3000 and loading your .env)
+docker run -p 3000:3000 --env-file .env sdm-backend-js
+```
+
 ---
 
 ## 📡 API Reference
