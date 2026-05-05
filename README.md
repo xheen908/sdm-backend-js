@@ -62,8 +62,22 @@ npm run dev
 ```
 
 ### 🐳 Docker Support (Node 22-slim)
-You can build and run this backend inside a lightweight Docker container using the preconfigured `Dockerfile`:
+You can build and run this backend inside a lightweight Docker container.
 
+#### Option A: Docker Compose (Recommended)
+Simply spin up the server with a single command:
+```bash
+# Build and run the container in detached mode
+docker compose up -d --build
+
+# View container logs
+docker compose logs -f
+
+# Stop and remove the container
+docker compose down
+```
+
+#### Option B: Plain Docker CLI
 ```bash
 # Build the Docker image
 docker build -t sdm-backend-js .
