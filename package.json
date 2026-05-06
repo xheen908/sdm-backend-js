@@ -1,5 +1,5 @@
 {
-  "name": "nfc-developer-2-backend",
+  "name": "nfc-424-dna-backend",
   "version": "1.0.0",
   "description": "Node.js backend for NTAG 424 DNA Secure Dynamic Messaging (SDM) verification",
   "main": "app.js",

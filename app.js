@@ -131,7 +131,7 @@ function handleSdmVerification(req, res, forceJson = false) {
         <h2 style="margin-top:0">❌ Verification Failed</h2>
         <p style="color:#8A8F9E;line-height:1.6">${error.message}</p>
         <hr style="border:0;border-top:1px solid #222;margin:20px 0">
-        <div style="font-size:12px;color:#555">NFC Developer 2 Backend • Node.js Error</div>
+        <div style="font-size:12px;color:#555">NFC 424 DNA Backend • Node.js Error</div>
       </div>
     `);
   }
@@ -143,7 +143,7 @@ app.get('/', (req, res) => {
     <div style="background:#0A0B10;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;color:#FFF;font-family:sans-serif;">
       <div style="background:#161822;padding:40px;border-radius:24px;max-width:600px;width:100%;border:1px solid #25293A;text-align:center;box-shadow:0 20px 40px rgba(0,0,0,0.5)">
         <span style="font-size:48px;margin-bottom:16px;display:block">📡</span>
-        <h1 style="margin-bottom:10px;font-size:28px;background:linear-gradient(135deg,#FFF,#888);-webkit-background-clip:text;-webkit-text-fill-color:transparent">NFC Developer 2 Backend</h1>
+        <h1 style="margin-bottom:10px;font-size:28px;background:linear-gradient(135deg,#FFF,#888);-webkit-background-clip:text;-webkit-text-fill-color:transparent">NFC 424 DNA Backend</h1>
         <p style="color:#8A8F9E;margin-bottom:30px;font-size:14px">Node.js Secure Dynamic Messaging (SDM) Verification Server is active.</p>
         
         <div style="background:#1F2231;padding:24px;border-radius:16px;border:1px solid #2F344D;text-align:left;font-family:monospace;font-size:13px;color:#00FF66;line-height:1.6">

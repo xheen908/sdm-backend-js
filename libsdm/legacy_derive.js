@@ -1,6 +1,6 @@
 const crypto = require('crypto');
 
-// Legacy PBKDF2 key derivation (compatible with older NFC Developer configurations)
+// Legacy PBKDF2 key derivation (compatible with older NFC 424 DNA configurations)
 function deriveTagKey(masterKey, uid, keyNo) {
   if (masterKey.equals(Buffer.alloc(16, 0))) {
     return Buffer.alloc(16, 0);

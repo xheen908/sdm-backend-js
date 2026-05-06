@@ -3,7 +3,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: sdm-backend-js
+    container_name: nfc-424-dna-backend
     ports:
       - "${PORT:-3000}:3000"
     env_file:
