@@ -220,17 +220,17 @@ app.get('/imprint', (req, res) => {
       <p><strong>OCPP Labs Architecture</strong><br>
       <span style="font-size: 13px; color: var(--text-muted); font-style: italic;">(Part of v-ledger.com group)</span></p>
       
-      <p><strong>Angaben gemäß § 5 TMG:</strong><br>
-      Verantwortlich: Arndt Christoph Handschuh<br>
-      Anschrift: Albertstraße 7, 47059 Duisburg</p>
+      <p><strong>Information according to § 5 TMG:</strong><br>
+      Representative: Arndt Christoph Handschuh<br>
+      Address: Albertstraße 7, 47059 Duisburg</p>
       
       <p>Web: <a href="https://ocpp-labs.com">ocpp-labs.com</a><br>
       Support: <a href="mailto:support@ocpp-labs.com">support@ocpp-labs.com</a></p>
       
       <div class="highlight-box">
-        <strong>HAFTUNGSAUSSCHLUSS / DISCLAIMER:</strong><br><br>
-        Die Nutzung der Backend-Infrastruktur sowie der dazugehörigen App erfolgt auf eigene Gefahr. 
-        Der Entwickler haftet unter keinen Umständen für unbrauchbare NFC-Tags, blockierte Hardware-Locks oder Datenverlust durch fehlerhafte Schlüsselübergaben.
+        <strong>DISCLAIMER:</strong><br><br>
+        The use of this backend infrastructure and associated applications is strictly at your own risk. 
+        The developer shall under no circumstances be held liable for bricked NFC tags, permanent hardware-locks, or data loss resulting from improper cryptographic operations.
       </div>
       <h2>Technology</h2>
       <p>This service is powered by Node.js v22-slim, utilizing express framework and native crypto modules for highly secure symmetric decryption routines.</p>
